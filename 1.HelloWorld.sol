@@ -1,5 +1,5 @@
 pragma solidity ^0.4.24;
-contract String {
+contract HelloWorldContract {
     string store = "abcdef";
     
     function getStore() public view returns (string) {
